@@ -1,0 +1,31 @@
+.signUp{
+        /* width: 300px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    /* align-items: center; */
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 700px;
+}
+.fistAndLastName{
+    display: flex;
+}
+.signUp input,select {
+    height: 30px;
+    margin: 10px
+}
+
+.signUp button {
+    height: 40px;
+    width: fit-content;
+    margin: 10px
+}
+.fa.fa-user-plus{
+    font-size: 40px;
+    margin: 5px;
+}

@@ -1,0 +1,65 @@
+.homeMain{
+    position: absolute;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.187);
+}
+.homeMain ul{
+    /* text-align: left; */
+    width: 70px;
+    list-style-type: none;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    /* display: table-cell; */
+}
+/* .homeMain li{
+    text-align: left;
+    width: 70px;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.187);
+    height: 100%;
+    font-size: 30px;
+    display: table-cell;
+}
+
+.homeMain ul:hover{
+    width: 200px;
+    text-align: left;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.187);
+    height: 100%;
+} */
+
+.homeMainContent{
+    /* background-color: rgb(159, 212, 212); */
+    display: flex;
+    height: 600px;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.homeMainContent ul{
+    list-style-type: none;
+    display: flex
+}
+.homeMainContent li{
+    padding: 0 20px;
+}
+.mainContent{
+    text-align: center;
+}
+
+.homeMainContent table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 25px;
+}
+
+table select {
+    border: none;
+    font-weight: 700;
+}
+
+select option{
+    text-align: center;
+}
